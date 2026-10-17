@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+# Kết quả huấn luyện / TensorBoard của PPO2.py
+runs/
+logs/
+*.pkl
+*.pth
+*.pt
+# Docker local
+docker-compose.override.yml
